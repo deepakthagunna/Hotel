@@ -4,9 +4,17 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Home (Hotel Management)</title>
+		<title>Home (Hotel Room Booking)</title>
 		<link rel="stylesheet" type="text/css" href="Css/Style.css">
 		<link  href="Img/hotel.png" type="img/icon"  rel="icon">
+		<script type="text/javascript" src="Jquery/jquery.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('#btn').click(function(){
+					$('#nav').slideToggle();
+				});
+			});
+		</script>
 	</head>
 	<body>
 	<div id="full">
@@ -17,11 +25,12 @@
 					<h1><font color="white">My Project</font></h1>
 
 					</div>
+						<div><button id="btn">|||</button></div>
 						<div id="nav">
 							<ul>
-								<li><a href="#">Home </a></li>
-								<li><a href="#">Contact Us </a></li>
-								<li><a href="#">Book My Stay </a></li>
+								<li><a href="index.php">Home </a></li>
+								<li><a href="contact.php">Contact Us </a></li>
+								<li><a href="bms.php">Book My Stay </a></li>
 								<li><a href="#">Our Hotels </a></li>
 								<li><a href="#">Help </a></li>
 
@@ -32,6 +41,7 @@
 			<div id="banner"></div>
 		</div>
 	<div id="f1">
+		<form action="r1.php" method="get">
 		<center><table>
 			<tr>
 				<th width="20%" height="50px"> Destination </th>
@@ -45,19 +55,30 @@
 				<th width="20%" height="50px"> <input type="date" name="ci" > </th>
 				<th width="20%" height="50px"> <input type="date" name="co"> </th>
 				<th width="20%" height="50px"> 
-					<select>
+					<center><select name="room">
 						<option>1</option>
 						<option>2</option>
 						<option>3</option>
 						<option>4</option>
 						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+						<option>10</option>
+						<option>11</option>
+						<option>12</option>
+						<option>13</option>
+						<option>14</option>
+						<option>15</option>
+					
 
-					</select>
+					</center></select>
 				</th>
 			</tr>
 		</table>
 		</center>
-
+	</form>
 	</div>
 	<div id="welcome">
 			<h1 align="center">Welcome TO My Project</h1>
