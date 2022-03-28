@@ -36,8 +36,8 @@
 							<ul>
 								<li><a href="index.php">Home </a></li>
 								<li><a href="contact.php">Contact Us </a></li>
-								<li><a href="#">Book My Stay </a></li>
-								<li><a href="#">Our Hotels </a></li>
+								<li><a href="bms.php">Book My Stay </a></li>
+								<li><a href="ourhotel.php">Our Hotels </a></li>
 								<li><a href="#">Help </a></li>
 
 							</ul>

@@ -10,7 +10,6 @@
 	</head>
 	<body>
 	<div id="full">
-		<div style="background-image: url('Img/hotel-3.jpg'); background-size: 100% 710px; width: 100%; height: 710px; ">
 		
 			<div id="header">
 
@@ -18,23 +17,24 @@
 					<h1><font color="white">My Project</font></h1>
 
 					</div>
-						<div id="nav">
-							<ul>
-								<li><a href="index.php">Home </a></li>
-								<li><a href="contact.php">Contact Us </a></li>
-								<li><a href="bms.php">Book My Stay </a></li>
-								<li><a href="#">Our Hotels </a></li>
-								<li><a href="#">Help </a></li>
+						<div><button id="btn">|||</button></div>
+							<div id="nav">
+								<ul>
+									<li><a href="index.php">Home </a></li>
+									<li><a href="contact.php">Contact Us </a></li>
+									<li><a href="bms.php">Book My Stay </a></li>
+									<li><a href="ourhotel.php">Our Hotels </a></li>
+									<li><a href="#">Help </a></li>
 
-							</ul>
-						</div>
+								</ul>
+							</div>
 			
 					</div>
-			<div id="banner"></div>
-			<center>
-	<div style="background:rgba(255,255,255,.5); width:80%">
-	
-		<table>
+			
+		
+	<div id="f1" style="background-color: yellow; top-margin: red">
+		<form action="r1.php" method="get">
+		<center><table>
 			<tr>
 				<th width="20%" height="50px"> Destination </th>
 				<th width="20%" height="50px"> Check In Date </th>
@@ -47,21 +47,31 @@
 				<th width="20%" height="50px"> <input type="date" name="ci" > </th>
 				<th width="20%" height="50px"> <input type="date" name="co"> </th>
 				<th width="20%" height="50px"> 
-					<select>
+					<center><select name="room">
 						<option>1</option>
 						<option>2</option>
 						<option>3</option>
 						<option>4</option>
 						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+						<option>10</option>
+						<option>11</option>
+						<option>12</option>
+						<option>13</option>
+						<option>14</option>
+						<option>15</option>
+					
 
-					</select>
+					</center></select>
 				</th>
 			</tr>
 		</table>
-		
-		</div>
 		</center>
-		</div>
+		</form>
+	</div>
 	
 	</div>
 	</body>
